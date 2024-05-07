@@ -1,0 +1,103 @@
+@mixin _text($size, $weight: 400, $line-height: 1.1rem, $letter-spacing: 0px) {
+  font: {
+    family: "Inter", "Serif";
+    style: normal;
+    weight: $weight;
+    size: $size;
+  }
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+}
+
+// --------------------- Headeing---------------------------- //
+
+// Heading-XL fs: 48px; lh: 52.8px;
+@mixin heading-xl {
+  @include _text(3rem, 400, 3.3rem);
+}
+
+// Heading-L fs: 36px; lh: 39.6px;
+@mixin heading-l {
+  @include _text(2.25rem, 400, 2.475rem);
+}
+
+// Heading-M fs: 32px; lh: 35.2px;
+@mixin heading-m {
+  @include _text(2rem, 400, 2.2rem);
+}
+
+// Heading-S fs: 24px; lh: 26.4px;
+@mixin heading-s {
+  @include _text(1.5rem, 400, 1.65rem);
+}
+
+// --------------------- Text---------------------------- //
+
+// Text-L fs: 18px; lh: 19.8px;
+@mixin text-l {
+  @include _text(1.125rem, 400, 1.2375rem);
+}
+
+// Text-M fs: 16px; lh: 17.6px;
+@mixin text-m {
+  @include _text(1rem, 400, 0.91rem);
+}
+
+// Text-S fs: 14px; lh: 15.4px;
+@mixin text-s {
+  @include _text(0.875rem, 400, 0.9625rem);
+}
+
+// Text-XS fs: 12px; lh: 13.2px;
+@mixin text-xs {
+  @include _text(0.75rem, 400, 0.825rem);
+}
+
+// --------------------- Accent---------------------------- //
+
+// Accent-L fs: 18px; lh: 19.8px;
+@mixin accent-l {
+  @include _text(1.125rem, 500, 1.2375rem);
+}
+
+// Accent-M fs: 16px; lh: 17.6px;
+@mixin accent-m {
+  @include _text(1rem, 400, 1.1rem);
+}
+
+// Accent-S fs: 14px; lh: 15.4px;
+@mixin accent-s {
+  @include _text(0.875rem, 300, 0.9625rem);
+}
+
+// Accent-XS fs: 12px; lh: 13.2px;
+@mixin accent-xs {
+  @include _text(0.75rem, 300, 0.825rem);
+}
+
+// Accent-XS-m fs: 12px; lh: 13.2px;
+@mixin accent-xs-m {
+  @include _text(0.75rem, 500, 0.825rem);
+}
+
+// --------------------- Text massive---------------------- //
+
+// Text Massive-XL fs: 32px; lh: 42px;
+@mixin massive-xl {
+  @include _text(2rem, 400, 2.625rem);
+}
+
+// Text Massive-L fs: 20px; lh: 26px;
+@mixin massive-l {
+  @include _text(1.25rem, 300, 1.625rem);
+}
+
+// Text Massive-M fs: 16px; lh: 21px;
+@mixin massive-m {
+  @include _text(1rem, 300, 1.3125rem);
+}
+
+// Text Massive-S fs: 14px; lh: 18px;
+@mixin massive-s {
+  @include _text(14, 300, 1.125rem);
+}

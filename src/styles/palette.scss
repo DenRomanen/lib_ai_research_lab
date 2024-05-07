@@ -1,0 +1,35 @@
+@use "./media.scss";
+
+:root {
+  --clr-bg-dark: rgb(0, 13, 38);
+  --clr-bg-dark-menu: rgb(53, 53, 53);
+  --clr-bg-light: rgb(255, 255, 255);
+  --clr-bg-light-menu: rgba(255, 255, 255, 0.12); // get from figma
+  --clr-btn-new-dark: rgb(9, 141, 104);
+  --clr-btn-new-light: rgb(225, 225, 225);
+  --clr-btn-hover: rgba(39, 166, 126, 0.4);
+  --clr-btn-selected: rgba(39, 166, 126, 0.08);
+  --clr-btn-delete: rgb(251, 46, 47);
+  --clr-text-light: rgba(255, 255, 255, 0.6);
+  --clr-text-dark: rgb(44, 31, 31);
+  --clr-text-green: rgb(39, 166, 126);
+  --clr-icon-light: rgba(255, 255, 255, 0.87);
+  --clr-icon-dark: rgb(0, 0, 0);
+
+  --box-shadow: 0px 0px 0.5rem 0px var(--clr-primary);
+  --border: 1px solid var(--clr-border);
+
+  --offset-inline: 1.25rem;
+
+  @include media.tablet {
+    --offset-inline: 2.5rem;
+  }
+
+  @include media.laptop {
+    --offset-inline: 4rem;
+  }
+
+  @include media.desktop-large {
+    --offset-inline: calc((100vw - 1310px) / 2);
+  }
+}
