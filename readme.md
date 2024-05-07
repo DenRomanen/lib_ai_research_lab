@@ -1,7 +1,9 @@
-### lib_ai_research_lab
+# lib_ai_research_lab
 
-# Components
+Библиотека компонентов
 
-# Functions
+### Components
 
-# Some data
+### Functions
+
+### Some data
