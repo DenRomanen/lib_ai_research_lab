@@ -1,5 +1,5 @@
-import MyButton from "./components/myButton/MyButton";
 import { cl } from "./assets/className/className";
+import InfiniteList from "./components/infiniteList/InfiniteList";
 
-export { MyButton };
 export { cl };
+export { InfiniteList };

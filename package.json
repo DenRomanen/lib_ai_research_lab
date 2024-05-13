@@ -1,12 +1,12 @@
 {
   "name": "lib_ai_research_lab",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "lib_npm",
   "main": "./dist/index.js",
   "scripts": {
     "start": "webpack serve --env port=3000",
     "build": "webpack --env mode=production",
-    "publish": "npm run build && version patch && npm publish"
+    "publish": "npm run build && npm publish"
   },
   "repository": {
     "type": "git",
@@ -58,13 +58,13 @@
     "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
     "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "webpack": "^5.90.3",
     "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.2",
-    "ts-loader": "^9.5.1"
+    "webpack-dev-server": "^5.0.2"
   },
   "files": [
     "dist"
