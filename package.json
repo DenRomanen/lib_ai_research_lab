@@ -1,6 +1,6 @@
 {
   "name": "lib_ai_research_lab",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "lib_npm",
   "main": "./dist/index.js",
   "scripts": {
