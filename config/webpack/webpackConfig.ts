@@ -13,7 +13,7 @@ export const buildWebpackConfig = (options: IBuildOptions): Configuration => ({
     path: options.paths.build,
     filename: "index.js",
     chunkFilename: "[name].chunk.js",
-    publicPath: "/",
+    // publicPath: "/",
     libraryTarget: "umd",
     clean: true,
   },
